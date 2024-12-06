@@ -1,0 +1,97 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    /* Fondo negro */
+    color: #fff;
+    /* Texto blanco */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Contenedor principal */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #fff;
+    /* Texto blanco */
+    margin: 0 0 20px;
+}
+
+.btn {
+    background-color: #ff1e00;
+    /* Rojo característico de F1 */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d11800;
+    /* Un rojo más oscuro para el hover */
+    transform: scale(1.05);
+}
+
+/* Galería */
+.gallery {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.gallery-title {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery-img {
+    max-width: 300px;
+    border: 3px solid #ff1e00;
+    /* Borde rojo */
+    border-radius: 10px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+    border-color: #d11800;
+    /* Borde rojo más oscuro en hover */
+}
+
+/* Footer */
+.footer {
+    background-color: #111;
+    /* Negro más oscuro */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
